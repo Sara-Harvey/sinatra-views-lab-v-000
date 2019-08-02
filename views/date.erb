@@ -1,17 +1,11 @@
-<!DOCTYPE html>
-<html>
+<h1>Today</h1>
     
-    <head></head>
-    
-    <body>
-    <h1>Today</h1>
-    
-        <% weekday = Date.today.strftime("%A")%>
-        <% month = Date.today.strftime("%B")%>
-        <% day = Date.today.strftime("%e")%>
-        <% year = Date.today.strftime("%Y")%>
+<% weekday = Date.today.strftime("%A")%>
+<% month = Date.today.strftime("%B")%>
+<% day = Date.today.strftime("%e")%>
+<% year = Date.today.strftime("%Y")%>
 
-        <p><%="The date is #{weekday}, #{month} #{day}, #{year}." %><p>
+<p><%="The date is #{weekday}, #{month} #{day}, #{year}." %><p>
 
 </html>
 
