@@ -5,8 +5,11 @@
     
     <body>
     <h1>Today</h1>
-    <p>The date is <%= Time.now.strftime('%A, %B %e, %Y')%>.</p>
-    </body>
+    
+        <% weekday = Date.today.strftime("%A")%>
+        <% month = Date.today.strftime("%B")%>
+        <% day = Date.today.strftime("%e")%>
+        <% year = Date.today.strftime("%Y")%>
 
 </html>
 
